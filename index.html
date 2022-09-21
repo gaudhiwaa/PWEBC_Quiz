@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="display: flex; justify-content: center;">
+    <div class="header">
+        <img src="1.png" width="90px" height="90px"/>
+        <div>
+        <h1 class="title">PEMERINTAH KABUPATEN SOLOK</h1>
+        <h1 class="title" style="margin-top: -10px;">RUMAH SAKIT UMUM DAERAH AROSUKA</h1>
+        <p>Jl. Raya Solok Padang KM. 20 Arosuka Kode pos 27364</p>
+        <p>Propinsi Sumatera Barat Telp / Fax (0755) 31160</p>
+        <p>Email : rsudarosukakabsolok@gmail.com</p>
+        
+        </div>
+        <img src="2.jpg" width="120px" height="120px"/>
+    </div>
+</div>
+    <div class="centerLine">
+        <div class="line"></div>
+    </div>
+    <div class="centerLine">
+    <h1 class="titleForm">FORMULIR PENDAFTARAN PASIEN BARU</h1>
+</div>
+<div class="form">
+<div class="center">
+<div class="subTitle">
+    <u><b>PERHATIAN: HARAP MENGISI FORMULIR INI DENGAN LENGKAP DAN JELAS</b></u>
+</div>
+<div class="fillForm">
+    <h2>I.IDENTITAS PASIEN</h2>
+    <ul>
+        <li><p>Nama Pasien :</p><input id="input"></input></li>
+        <li><p>Tempat Lahir :</p><input id="input"></input></li>
+        <li><p>Tanggal Lahir :</p><input id="input"></input></li>
+        <li><p>Jenis Kelamin :</p><input id="input"></input></li>
+        <li><p>Alamat :</p><input></input id="input"></li>
+        <li><p>Provinsi :</p><input></input id="input"></li>
+        <li><p>Kecamatan :</p><input></input id="input"></li>
+        <li><p>Kelurahan/Desa :</p><input id="input"></input></li>
+        <li><p>No.Tel/Hp : </p><input id="input"></input></li>
+        <li><p>Kode Pos :</p><input id="input"></input></li>
+        <li><p>Agama : </p><input id="input"></input></li>
+        <li><p>Pendidikan Terakhir :</p><input id="input"></input></li>
+        <li><p>Pekerjaan :</p><input id="input"></input></li>
+    </ul>
+</div>
+<!-- <div>
+    <h2>II.PENANGGUNG JAWAB PASIEN</h2>
+    <ul>
+        <li>Hubungan Dengan Pasien </li>
+        <li>Nama Penanggung Jawab </li>
+        <li>Pendidikan P. Jawab</li>
+        <li>Pekerjaan P. Jawab</li>
+    </ul>
+</div> -->
+<div class="fillForm">
+    <h2>II.PENANGGUNG JAWAB PASIEN</h2>
+    <ul>
+        <li><p>Hubungan Dengan Pasien :</p><input id="input"></input></li>
+        <li><p>Nama Penanggung Jawab :</p><input id="input"></input></li>
+        <li><p>Pendidikan P. Jawab :</p><input id="input"></input></li>
+        <li><p>Pekerjaan P. Jawab :</p><input id="input"></input></li>
+    </ul>
+</div>
+</div>
+</div>
+<div class="signRight">
+<div class="sign">
+    <div class="boxSign">
+    <h3>Tanda Tangan</h3>
+<button type="submit" class="submit" id="button" onclick="onSubmit()"> ( Tanda Tangan ) </button>
+</div>
+</div>
+</div>
+
+   
+    <script src="index.js"></script>
+</body>
+</html>
+
+ <!-- <form class="login" id="login">
+        <fieldset>
+            <legend class="legend"><div class="center">Sign In</div></legend>
+            <div class="input">
+                <input type="email" placeholder="Email" id="email" required />
+                <span><i class="fa fa-envelope-o"></i></span>
+            </div>
+            <div class="input">
+                <input type="password" placeholder="Password" id="password" required />
+                <span><i class="fa fa-lock"></i></span>
+            </div>
+            <button type="submit" class="submit" id="button" onclick="onSubmit()"><i class="fa fa-long-arrow-right"></i></button>
+    
+        </fieldset>
+    
+        <div class="feedback" id="feedback">
+            login successful <br />
+        </div>
+    
+    </form>

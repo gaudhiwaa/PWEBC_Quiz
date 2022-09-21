@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: #808080 repeat fixed;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+.login {
+    position: relative;
+    top: 50%;
+    width: 550px;
+    display: table;
+    margin: -150px auto 0 auto;
+    background: rgb(174, 174, 174);
+    border-radius: 4px;
+}
+
+.legend {
+    position: relative;
+    width: 100%;
+    display: block;
+    background: #2DBE78;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.legend:after {
+    content: "";
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: 152px -16px;
+    opacity: 0.06;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    position: relative;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.input span {
+    position: absolute;
+    display: block;
+    color: #d4d4d4;
+    left: 10px;
+    top: 8px;
+    font-size: 20px;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px 5px 10px 40px;
+    display: block;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    transition: 0.2s ease-out;
+    color: #a1a1a1;
+}
+
+.input input:focus {
+    padding: 10px 5px 10px 10px;
+    outline: 0;
+    border-color:#2ecc71;
+}
+
+.submit {
+    width: 45px;
+    height: 45px;
+    display: block;
+    margin: 0 auto -15px auto;
+    background: #fff;
+    border-radius: 100%;
+    border: 2px solid #2DBE78;
+    color: #2DBE78;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 7px #fff;
+    transition: 0.2s ease-out;
+}
+
+.submit:hover,
+.submit:focus {
+    background: #2DBE78;
+    color: #fff;
+    outline: 0;
+}
+
+.feedback {
+    position: absolute;
+    bottom: -80px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background: #2ecc71;
+    padding: 10px 0;
+    font-size: 12px;
+    display: none;
+    opacity: 1;
+} */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.centerHeader{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.marginHeader{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+.header {
+    width: 50%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    line-height: -100px;
+    text-align: center;
+}
+
+.header p {
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.centerLine {
+    display: flex;
+    justify-content: center;
+}
+.line{
+    background-color: black;
+    width: 50%;
+    height: 5px;
+}
+.titleForm{
+    font-size: 20px;
+}
+.subTitle{
+    font-size: 18px;
+    margin-top: -10px;
+    /* width: 50%; */
+}
+.center{
+    width: 50%;
+    /* background-color: red; */
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    
+}
+.form h2{
+    font-size: 18px;
+}
+ul {
+    list-style-type:none;
+}
+ul li p{
+    
+    font-size: 15px;
+}
+
+ul li{
+    /* line-height: 10px; */
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+}
+
+ul li input {
+    height: 14px;
+    margin-left: 10px;
+    width: 60%;
+}
+.signRight{
+    display: flex;
+    justify-content: center;
+}
+.sign {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+button{
+    font-size: 25px;
+}
+.boxSign{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
